@@ -2,9 +2,9 @@ import os
 from google import genai
 from google.genai import types
 
-api_key = ("API_KEY")
+api_key = ("API_KEY_HERE")
 if not api_key:
-    raise SystemExit("GEMINI_API_KEY is not set. Run: export GEMINI_API_KEY='AQ.Ab8RN6LqMx3oESXqsBV9yU19XuBqd77QbtluxXXaPcRoaMeDSw'")
+    raise SystemExit("GEMINI_API_KEY is not set. Run: export GEMINI_API_KEY="API_KEY_HERE")
 
 client = genai.Client(api_key=api_key)
 
