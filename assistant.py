@@ -2,7 +2,7 @@ import os
 from google import genai
 from google.genai import types
 
-api_key = ("AQ.Ab8RN6LqMx3oESXqsBV9yU19XuBqd77QbtluxXXaPcRoaMeDSw")
+api_key = ("API_KEY")
 if not api_key:
     raise SystemExit("GEMINI_API_KEY is not set. Run: export GEMINI_API_KEY='AQ.Ab8RN6LqMx3oESXqsBV9yU19XuBqd77QbtluxXXaPcRoaMeDSw'")
 
